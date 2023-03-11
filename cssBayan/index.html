@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,16 +12,38 @@
         <h1 class="title">CSS Bayan</h1>
     </header>
     <section class="accordion">
-        <div class="container">
-            <input type="radio" name="memes" id="memesFirst" value="mem">
-                <label for="memesFirst">Hello!</label>
-                    This meme says hello!
-            <input type="radio" name="memes" id="memesSecond" value="mem">
-                <label for="memesSecond">mem1</label>
-            <input type="radio" name="memes" id="memesThird" value="mem">
+        <div class="wrapper">
+            <div class="accordion__item"></div>
+                <input class="accordion__input" type="radio" name="memes" id="memesFirst" value="mem">
+                <label class="accordion__title" for="memesFirst">Hello!</label>
+                    <div class="accordion__text">
+                        <p>This meme says hello!</p>
+
+                    </div>
+                <input class="accordion__input" type="radio" name="memes" id="memesSecond" value="mem">
+                <label class="accordion__title" for="memesSecond">How are you?</label>
+                    <div class="accordion__text">
+                        <p>Fine, thank you!</p>
+
+                    </div>
+                <input type="radio" name="memes" id="memesThird" value="mem">
                 <label for="memesThird">mem1</label>
-            <input type="radio" name="memes" id="memesFourth" value="mem">
+                    <div class="accordion__text">
+                        <p>This meme says hello!</p>
+
+                    </div>
+                <input type="radio" name="memes" id="memesFourth" value="mem">
                 <label for="memesFourth">mem1</label>
+                    <div class="accordion__text">
+                        <p>This meme says hello!</p>
+
+                    </div>
+                <input type="radio" name="memes" id="memesFifth" value="mem">
+                <label for="memesFifth">mem1</label>
+                    <div class="accordion__text">
+                        <p>This meme says hello!</p>
+    
+                    </div>
         </div>
     </section>
 
