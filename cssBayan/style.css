@@ -3,6 +3,8 @@ body {
     line-height: 1.2;
 
     background-color: rgb(243, 224, 201);
+    color: blue;
+    min-height: 100hv;
 }
 
 * {
@@ -15,6 +17,7 @@ body {
     text-align: center;
     font-size: 2em;
     padding: 2.5em;
+    color: black;
 }
 
 .accordion{
@@ -40,8 +43,12 @@ body {
 .accordion__input:checked ~ .accordion__text{
     max-height: 100em;
     transition: 1s;
+    color: black;
 }
-
+.accordion__input:checked ~ label{
+    transition: 1s;
+    color: black;
+}
 .accordion__title{
     display: flex;
     align-items: center;
